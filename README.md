@@ -2,7 +2,7 @@
 
 A pixel-based Deep Q-Network (DQN) agent that learns to play Flappy Bird, built from scratch as a deep RL project. 
 
-![Video display of agent playing for 3 episodes truncated at length=2000] (videos/run_seed101.gif)
+![Video display of agent playing for 3 episodes truncated at length=2000](videos/run_seed101.gif)
 
 ## Key Results
 
@@ -12,7 +12,6 @@ A pixel-based Deep Q-Network (DQN) agent that learns to play Flappy Bird, built 
 | Heuristic | 0.34 | 128 |
 | **DQN (trained)** | **~12.5** | **~970** |
 
-## Architecture 
 ## Architecture
 
 ```mermaid
