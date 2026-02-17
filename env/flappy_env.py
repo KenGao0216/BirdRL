@@ -343,12 +343,6 @@ class FlappyBirdEnv(gym.Env):
             (bird_center_x, bird_center_y), bird_radius
         )
         
-        # Score text (with shadow for readability)
-        score_text = self.font.render(f"Score: {self.score}", True, self.COLOR_TEXT_SHADOW)
-        self.screen.blit(score_text, (12, 12))
-        score_text = self.font.render(f"Score: {self.score}", True, self.COLOR_TEXT)
-        self.screen.blit(score_text, (10, 10))
-        
         # === OUTPUT ===
         
         if self.render_mode == "human":

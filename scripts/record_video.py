@@ -149,7 +149,8 @@ def record_episodes(model, args):
                 for _ in range(args.fps // 2):  # Half second freeze
                     if frame is not None:
                         end_text = f"Ep:{ep+1}  FINAL Score:{info.get('score', 0)}  Steps:{steps}"
-                        end_frame = add_text_to_frame(base_env.render() or frame, end_text)
+                        rendered = base_env.render()
+                        end_frame = add_text_to_frame(rendered if rendered is not None else frame, end_text)
                         episode_frames.append(end_frame)
                 break
         
