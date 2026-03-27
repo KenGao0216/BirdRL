@@ -10,7 +10,7 @@ A pixel-based Deep Q-Network (DQN) agent that learns to play Flappy Bird, built 
 |-------|--------------------------|----------------------|
 | Random | 0.00 | 38 |
 | Heuristic | 0.34 | 128 |
-| **DQN (trained)** | **~12.5** | **~970** |
+| **DQN (trained)** | **~26.5** | **~1870** |
 
 ## Architecture
 
